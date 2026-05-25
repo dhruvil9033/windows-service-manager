@@ -1,0 +1,35 @@
+# ==========================================
+# Service Manager Git Ignore Configuration
+# ==========================================
+
+# --- PyInstaller & Build Outputs ---
+# Do not upload heavy binary output files or compilation temp files to Git.
+# Binaries should be published in "GitHub Releases" instead of the source tree.
+build/
+dist/
+Output/
+*.spec
+
+# --- Python Cache & Runtime ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- User Persistence / Saved Context ---
+# Local service configuration text files should not be public.
+services.txt
+
+# --- Editor and System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
