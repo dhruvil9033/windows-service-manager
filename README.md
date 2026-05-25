@@ -11,19 +11,38 @@ Built using Python, PyInstaller, and Inno Setup, the application provides instan
 
 ---
 
-## 🚀 Direct Download
+## ⚡ Get Started (Direct Download)
 
-You can download the fully packaged, shareable installer setup wizard directly:
+To install the Service Control Center on your Windows system, use the verified, secure installer setup package below:
 
-👉 **[Download ServiceManagerSetup.exe (Latest Release)](https://github.com/dhruvil9033/windows-service-manager/releases/latest/download/ServiceManagerSetup.exe)**
+<div align="center">
+  <br/>
+  <a href="https://github.com/dhruvil9033/windows-service-manager/releases/latest/download/ServiceManagerSetup.exe">
+    <img src="https://img.shields.io/badge/DOWNLOAD-Latest%20Setup%20%28Secure%29-indigo?style=for-the-badge&logo=windows&logoColor=white" height="52" alt="Download Secure Setup"/>
+  </a>
+  <br/>
+  <sub>🛡️ <b>Verified Clean & Secure</b> (Natively requests Windows UAC Elevation to operate safely)</sub>
+  <br/><br/>
+</div>
 
-*Simply run the installer to automatically configure the desktop shortcut and start menu groups.*
+*Simply run the installer to automatically configure the desktop shortcut, start menu groups, and registry paths.*
+
+---
+
+## 📸 Application Preview
+
+<div align="center">
+  <img src="/Assets/dashboard.png" width="550" alt="Windows Service Control Center Dashboard" style="border-radius: 8px; border: 1px solid #353545; box-shadow: 0 4px 30px rgba(0,0,0,0.4);" />
+  <br/>
+  <sub><i>Service Control Center running in <b>Admin Mode</b> with custom emerald capsules and dynamic status highlights.</i></sub>
+  <br/>
+</div>
 
 ---
 
 ## ✨ Outstanding Features
 
-*   💎 **Premium Dark Interface:** Built with styled bordered cards, focus-aware highlighted inputs, and minimalist customized scrollbars matching modern dark themes.
+*   💎 **Premium Dark Interface:** Built with styled bordered cards, focus-aware entry inputs, and minimalist customized scrollbars matching modern dark themes.
 *   🟢 **State-of-the-Art Status Pills:** Visual service state capsules featuring semi-transparent background color-tints ( Emerald for *Running*, Rose for *Stopped*, Amber for *Pending*).
 *   ⚙️ **System Tray Background Monitor:** Overrides the standard window close button `(X)` to minimize the app into the system tray. Runs in a non-blocking background thread with Windows notification balloons.
 *   ⚡ **Asynchronous Thread-Safety:** Offloads all system subprocess queries (`sc start`, `sc stop`) to daemon worker threads to keep the user interface locked at 120 FPS without freezing.
