@@ -32,7 +32,7 @@ To install the Service Control Center on your Windows system, use the verified, 
 ## 📸 Application Preview
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/dhruvil9033/windows-service-manager/main/Assets/dashboard.png" width="550" alt="Windows Service Control Center Dashboard" style="border-radius: 8px; border: 1px solid #353545; box-shadow: 0 4px 30px rgba(0,0,0,0.4);" />
+  <img src="/Assets/dashboard.png" width="550" alt="Windows Service Control Center Dashboard" style="border-radius: 8px; border: 1px solid #353545; box-shadow: 0 4px 30px rgba(0,0,0,0.4);" />
   <br/>
   <sub><i>Service Control Center running in <b>Admin Mode</b> with custom emerald capsules and dynamic status highlights.</i></sub>
   <br/>
